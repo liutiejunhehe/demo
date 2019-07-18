@@ -10,6 +10,7 @@ public class Test {
 		
 		String signStr = "厉害了我的国";
 		String sign = aesUtil.encrypt(signStr);
+		
 		System.out.println("加密之后："+sign);
 		System.out.println("解密："+aesUtil.desEncrypt(sign));
 		
